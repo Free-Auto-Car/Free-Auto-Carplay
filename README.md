@@ -2,13 +2,17 @@
 
 让 Android 4.0 及以上的车机用上 CarPlay：通过外置 USB 蓝牙接收器或车机自带蓝牙连接 iPhone，不需要改装车机，也不需要 root。
 
-> 本项目基于 Display 与 XcertPlay 修改而来，自 2026-10-01 起开发，按 [AGPL-3.0](LICENSE) 发布。
+> 本项目基于 [DiPlay](https://github.com/shihabal3amri/DiPlay)（Display）与 [XcertPlay](https://github.com/shilapi/xcertplay) 修改而来，自 2026-10-01 起开发，按 [GPL-3.0](LICENSE) 发布。
 
 ## 下载
 
 所有版本都在 [Releases](https://github.com/Free-Auto-Car/Free-Auto-Carplay/releases) 页面，最新正式版为 **v1.4.9**。
 
 安装包为 32 位（`armeabi-v7a`），适用于 Android 4.0–9 的车机。旧版车机装不上或黑屏时，先升级到最新版本再试。
+
+- v1.1.0、v1.2.2 发布时没有保留安装包（GitHub 上标记为 pre-release），仅供版本记录。
+- v1.0.2 为内部修复版，Release 附有三个内部构建包。
+- v1.3.0 的 Release 另附《使用说明书》PDF（`FreeAuto-1.3.0-manual.pdf`）；v1.4.5 的 Release 另附两个辅助工具 APK（`HotspotDetective.apk`、`USB-probe.apk`）。
 
 ## 支持的连接方式
 
@@ -75,7 +79,11 @@
 
 ## 许可
 
-本项目以 [AGPL-3.0](LICENSE) 发布，基于 Display 与 XcertPlay 修改。使用时请遵守相应许可证条款。
+本项目以 [GPL-3.0](LICENSE) 发布。
+
+- 基于 [DiPlay](https://github.com/shihabal3amri/DiPlay)（本 README 早期写作 Display）与 [XcertPlay](https://github.com/shilapi/xcertplay) 修改而来，两个上游项目的许可证均为 GPL-3.0；上游版权归各自作者所有。
+- 本项目在原项目基础上做了 32 位（`armeabi-v7a`）适配、Android 4.0–9 兼容、外置 USB 蓝牙、应用内在线更新与热更新、方向盘按键学习等修改。
+- 使用、修改与再分发请遵守 GPL-3.0；再分发二进制时须保留本许可证与上游署名，并按 GPL-3.0 提供对应的完整源码。上游署名与修改说明见 [NOTICE](NOTICE)。
 
 ---
 
@@ -90,4 +98,4 @@ Free Auto CarPlay brings CarPlay to Android 4.0+ car head units. It connects to 
 
 Download the latest build from [Releases](https://github.com/Free-Auto-Car/Free-Auto-Carplay/releases).
 
-Based on Display and XcertPlay, licensed under [AGPL-3.0](LICENSE).
+Based on [DiPlay](https://github.com/shihabal3amri/DiPlay) (referred to as Display in earlier versions of this README) and [XcertPlay](https://github.com/shilapi/xcertplay), both licensed under GPL-3.0. Free Auto CarPlay is licensed under [GPL-3.0](LICENSE); upstream copyrights remain with their respective authors.
