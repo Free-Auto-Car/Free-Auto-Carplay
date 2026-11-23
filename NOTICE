@@ -1,0 +1,50 @@
+Free Auto CarPlay
+Copyright (C) 2026 Free-Auto-Car
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+Third-party notices
+===================
+
+This project is a modified version of the following GPL-3.0 projects.
+The full license text is in LICENSE; copyrights remain with their authors.
+
+- DiPlay
+  https://github.com/shihabal3amri/DiPlay
+  License: GPL-3.0
+  Copyright (C) the DiPlay authors.
+
+- XcertPlay
+  https://github.com/shilapi/xcertplay
+  License: GPL-3.0
+  Copyright (C) the XcertPlay authors.
+
+Modifications by Free Auto CarPlay
+----------------------------------
+
+- 32-bit (armeabi-v7a) builds for Android 4.0–9 car head units.
+- External USB Bluetooth receiver support, in addition to the head unit's
+  built-in Bluetooth and wired connections.
+- In-app OTA updates and a hot-update shell that preserves settings,
+  pairing and first-run wizard progress.
+- First-run wizard, connection-route handling, steering-wheel key learning,
+  single-file log export and crash logging.
+- Chinese UI and documentation.
+
+Source code
+-----------
+
+Free Auto CarPlay is distributed under GPL-3.0. Redistributors of the
+compiled packages must keep this notice and provide the corresponding
+source code as required by GPL-3.0.
